@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(185, 59, 43, 0.666);
+    width: 40%;
+    height: 50vh;
+    display: flex;align-items: center; justify-content: center;
+}
+
+input{
+    background-color:black;
+    border: 2px solid red;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+    font-size: large;
+    color:white;
+}
+input[type="text"]{
+    width: 280px;
+    height: 50px;
+}

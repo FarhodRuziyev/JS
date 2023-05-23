@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.parent{
+    background-color: lightblue;
+    width: 80%;
+    padding: 2rem 15rem;
+    height: 400px;
+    margin: 0 auto;
+    display: flex; flex-direction: column; row-gap: 15px;
+}
+button{
+    width: 20%;
+    padding: 0.6rem 3rem;
+    background-image:linear-gradient(to right, rgb(243, 12, 12), rgb(7, 7, 245));
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.695);
+}
